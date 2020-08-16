@@ -1,0 +1,10 @@
+---
+- hosts: wordpress
+  become: yes
+  remote_user: rangel
+
+  roles: 
+    - server
+    - php
+    - mysql
+    - wordpress

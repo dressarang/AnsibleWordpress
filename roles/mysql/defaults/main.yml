@@ -1,0 +1,10 @@
+---
+# defaults file for mysql
+
+# Database
+wp_mysql_db: wordpress
+# User
+wp_mysql_user: rangel
+# Password
+wp_mysql_password: 123
+
